@@ -1,4 +1,4 @@
-# install software
+# install basic software
 snap install spotify
 snap install slack
 snap install vscode
@@ -30,3 +30,7 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === '93b54496392c062774670
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 mv composer.phar /usr/local/bin/composer
+
+# node, npm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+nvm install v8.12.0
