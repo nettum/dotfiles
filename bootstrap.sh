@@ -4,6 +4,11 @@ snap install slack
 snap install vscode
 apt install terminator
 
+# zsh
+apt install zsh
+apt install fonts-powerline
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # setup gnome tweak tools adapta wm and icons
 apt install gnome-tweak-tool
 apt-get install chrome-gnome-shell
