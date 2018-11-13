@@ -25,7 +25,8 @@ sudo apt install mysql-server
 mysql_secure_installation
 sudo apt install php-fpm
 sudo apt install php-xml php-curl php-mbstring php-zip php-mysql php-imagick
-mysql_secure_installation
+sudo service php7.2-fpm restart
+
 
 # composer
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
