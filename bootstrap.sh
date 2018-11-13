@@ -6,6 +6,11 @@ sudo apt install flameshot
 sudo apt install filezilla
 sudo apt install pwgen
 
+# thefuck 
+sudo apt update
+sudo apt install python3-dev python3-pip python3-setuptools
+sudo pip3 install thefuck
+
 # zsh
 sudo apt install zsh
 sudo apt install fonts-powerline
