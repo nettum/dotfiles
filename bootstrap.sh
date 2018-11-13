@@ -48,3 +48,4 @@ sudo snap install vscode
 ext install felixfbecker.php-intellisense
 ext install mrmlnc.vscode-duplicate
 ext install EditorConfig.EditorConfig
+ext install whatwedo.twig
