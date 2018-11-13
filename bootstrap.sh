@@ -26,9 +26,10 @@ sudo apt update
 sudo apt install adapta-gtk-theme paper-icon-theme
 
 # nginx, php, mysql
-sudo apt install nginx
 sudo apt install mysql-server
 mysql_secure_installation
+sudoo apt install mysql-workbench
+sudo apt install nginx
 sudo apt install php-fpm
 sudo apt install php-xml php-curl php-mbstring php-zip php-mysql php-imagick
 sudo service php7.2-fpm restart
