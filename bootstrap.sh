@@ -1,3 +1,8 @@
+# zsh
+sudo apt install zsh
+sudo apt install fonts-powerline
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # install basic software
 sudo snap install spotify
 sudo snap install slack
@@ -10,11 +15,6 @@ sudo apt install pwgen
 sudo apt update
 sudo apt install python3-dev python3-pip python3-setuptools
 sudo pip3 install thefuck
-
-# zsh
-sudo apt install zsh
-sudo apt install fonts-powerline
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # setup gnome tweak tools adapta wm and icons
 sudo apt install gnome-tweak-tool
