@@ -4,6 +4,7 @@ sudo snap install slack
 sudo apt install terminator
 sudo apt install flameshot
 sudo apt install filezilla
+sudo apt install pwgen
 
 # zsh
 sudo apt install zsh
