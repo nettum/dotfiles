@@ -1,7 +1,6 @@
 # install basic software
 sudo snap install spotify
 sudo snap install slack
-sudo snap install vscode
 sudo apt install terminator
 
 # zsh
@@ -40,3 +39,9 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update
 sudo apt install yarn
+
+# vscode
+sudo snap install vscode
+ext install felixfbecker.php-intellisense
+ext install mrmlnc.vscode-duplicate
+ext install EditorConfig.EditorConfig
