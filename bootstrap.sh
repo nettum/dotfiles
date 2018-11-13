@@ -10,6 +10,7 @@ sudo apt install terminator
 sudo apt install flameshot
 sudo apt install filezilla
 sudo apt install pwgen
+sudo apt install virtualbox
 
 # thefuck 
 sudo apt update
