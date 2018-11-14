@@ -6,11 +6,13 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 # install basic software
 sudo snap install spotify
 sudo snap install slack
-sudo apt install terminator
-sudo apt install flameshot
 sudo apt install filezilla
-sudo apt install pwgen
+sudo apt install gimp
 sudo apt install virtualbox
+sudo apt install flameshot
+sudo apt install dconf-editor
+sudo apt install terminator
+sudo apt install pwgen
 
 # thefuck 
 sudo apt update
