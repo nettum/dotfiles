@@ -56,8 +56,4 @@ sudo apt install yarn
 
 # vscode
 sudo snap install vscode
-ext install felixfbecker.php-intellisense
-ext install mrmlnc.vscode-duplicate
-ext install EditorConfig.EditorConfig
-ext install whatwedo.twig
-ext install eamodio.gitlens
+code --install-extension felixfbecker.php-intellisense | mrmlnc.vscode-duplicate | EditorConfig.EditorConfig | whatwedo.twig | eamodio.gitlens
