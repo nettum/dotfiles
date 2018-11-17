@@ -30,7 +30,7 @@ sudo apt install adapta-gtk-theme paper-icon-theme
 # nginx, php, mysql
 sudo apt install mysql-server
 mysql_secure_installation
-sudoo apt install mysql-workbench
+sudo apt install mysql-workbench
 sudo apt install nginx
 sudo add-apt-repository ppa:ondrej/php
 sudo apt update
