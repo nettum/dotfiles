@@ -13,6 +13,7 @@ sudo apt install flameshot
 sudo apt install dconf-editor
 sudo apt install terminator
 sudo apt install pwgen
+sudo apt install tldr
 
 # thefuck 
 sudo apt update
