@@ -8,6 +8,7 @@ sudo snap install spotify
 sudo snap install slack
 sudo apt install filezilla
 sudo apt install gimp
+sudo apt install handbrake
 sudo apt install virtualbox
 sudo apt install flameshot
 sudo apt install dconf-editor
