@@ -66,3 +66,6 @@ sudo apt install yarn
 # vscode
 sudo snap install vscode
 code --install-extension felixfbecker.php-intellisense | mrmlnc.vscode-duplicate | EditorConfig.EditorConfig | whatwedo.twig | eamodio.gitlens
+
+# heroku cli
+sudo snap install --classic heroku
