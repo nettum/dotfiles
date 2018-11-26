@@ -15,6 +15,7 @@ sudo apt install dconf-editor
 sudo apt install terminator
 sudo apt install pwgen
 sudo apt install tldr
+sudo apt install openvpn
 
 # thefuck 
 sudo apt update
