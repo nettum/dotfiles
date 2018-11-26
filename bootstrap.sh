@@ -30,7 +30,7 @@ sudo add-apt-repository ppa:snwh/ppa
 sudo apt update
 sudo apt install adapta-gtk-theme paper-icon-theme
 
-# nginx, php, mysql
+# nginx, php, mysql, redis
 sudo apt install mysql-server
 mysql_secure_installation
 sudo apt install mysql-workbench
@@ -39,6 +39,7 @@ sudo add-apt-repository ppa:ondrej/php
 sudo apt update
 sudo apt install php-fpm php-xml php-curl php-mbstring php-zip php-mysql php-sqlite3 php-imagick php-gd
 sudo service php7.2-fpm restart
+sudo apt install redis-server
 # if you also need php7.1 (or older supported versions), uncomment the line below:
 # sudo apt install php7.1-fpm php7.1-mcrypt php7.1-xml php7.1-curl php7.1-mbstring php7.1-zip php7.1-mysql php7.1-imagick
 
@@ -46,6 +47,7 @@ sudo service php7.2-fpm restart
 wget -O phpunit https://phar.phpunit.de/phpunit-7.phar
 chmod +x phpunit
 sudo mv phpunit /usr/local/bin/
+
 
 # composer
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
