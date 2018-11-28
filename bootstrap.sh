@@ -1,8 +1,3 @@
-# zsh
-sudo apt install zsh
-sudo apt install fonts-powerline
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # install basic software
 sudo apt install git
 sudo apt install curl
@@ -23,6 +18,12 @@ sudo snap install slack
 sudo apt install zsh
 sudo apt install fonts-powerline
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# setup personal bash-scripts
+git clone git@github.com:nettum/check-response.git
+sudo cp check-response/check_response.sh /usr/local/bin/check_response && chmod +x /usr/local/bin/check_response
+git clone git@github.com:nettum/git-compare-branch.git
+sudo cp git-compare-branch/git-cmp-branch.sh /usr/local/bin/git-cmp-branch && chmod +x /usr/local/bin/git-cmp-branch
 
 # thefuck 
 sudo apt update
