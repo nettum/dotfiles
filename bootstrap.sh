@@ -4,8 +4,8 @@ sudo apt install fonts-powerline
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # install basic software
-sudo snap install spotify
-sudo snap install slack
+sudo apt install git
+sudo apt install curl
 sudo apt install filezilla
 sudo apt install gimp
 sudo apt install handbrake
@@ -16,6 +16,13 @@ sudo apt install terminator
 sudo apt install pwgen
 sudo apt install tldr
 sudo apt install openvpn
+sudo snap install spotify
+sudo snap install slack
+
+# zsh
+sudo apt install zsh
+sudo apt install fonts-powerline
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # thefuck 
 sudo apt update
