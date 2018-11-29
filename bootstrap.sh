@@ -33,6 +33,8 @@ sudo cp git-compare-branch/git-cmp-branch.sh /usr/local/bin/git-cmp-branch && ch
 sudo apt update
 sudo apt install python3-dev python3-pip python3-setuptools
 sudo pip3 install thefuck
+echo "eval \$(thefuck --alias)" >> ~/.bashrc
+echo "eval \$(thefuck --alias)" >> ~/.zshrc
 
 # setup gnome tweak tools adapta wm and icons
 sudo apt install gnome-tweak-tool
