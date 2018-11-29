@@ -19,6 +19,10 @@ sudo apt install zsh
 sudo apt install fonts-powerline
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# set vim as default editor
+echo "\nexport VISUAL=vim\nexport EDITOR=\"\$VISUAL\"" >> ~/.bashrc
+echo "\nexport VISUAL=vim\nexport EDITOR=\"\$VISUAL\"" >> ~/.zshrc
+
 # setup personal bash-scripts
 git clone git@github.com:nettum/check-response.git
 sudo cp check-response/check_response.sh /usr/local/bin/check_response && chmod +x /usr/local/bin/check_response
