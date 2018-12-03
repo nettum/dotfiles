@@ -51,7 +51,7 @@ sudo apt install mysql-workbench
 sudo apt install nginx
 sudo add-apt-repository ppa:ondrej/php
 sudo apt update
-sudo apt install php-fpm php-xml php-curl php-mbstring php-zip php-mysql php-sqlite3 php-imagick php-gd
+sudo apt install php-fpm php-xml php-curl php-mbstring php-zip php-mysql php-sqlite3 php-redis php-imagick php-gd
 sudo service php7.2-fpm restart
 sudo apt install redis-server
 # if you also need php7.1 (or older supported versions), uncomment the line below:
