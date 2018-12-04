@@ -13,6 +13,7 @@ sudo apt install tldr
 sudo apt install openvpn
 sudo snap install spotify
 sudo snap install slack
+sudo snap install postman
 
 # zsh
 sudo apt install zsh
