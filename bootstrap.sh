@@ -12,6 +12,7 @@ sudo apt install pwgen
 sudo apt install tldr
 sudo apt install tree
 sudo apt install openvpn
+sudo apt install nmap
 sudo snap install spotify
 sudo snap install slack
 sudo snap install postman
