@@ -5,6 +5,7 @@ sudo apt install filezilla
 sudo apt install gimp
 sudo apt install handbrake
 sudo apt install virtualbox
+sudo apt install virtualbox-ext-pack
 sudo apt install flameshot
 sudo apt install dconf-editor
 sudo apt install terminator
