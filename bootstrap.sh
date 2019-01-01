@@ -1,6 +1,5 @@
 # install basic software
 sudo apt install vim
-sudo apt install git
 sudo apt install curl
 sudo apt install filezilla
 sudo apt install gimp
@@ -18,6 +17,9 @@ sudo apt install nmap
 sudo snap install spotify
 sudo snap install slack
 sudo snap install postman
+sudo apt install git
+git config --global user.name "Marius Nettum"
+git config --global user.email "nettum@gmail.com"
 
 # zsh
 sudo apt install zsh
