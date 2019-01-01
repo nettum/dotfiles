@@ -15,7 +15,7 @@ sudo apt install tree
 sudo apt install openvpn
 sudo apt install nmap
 sudo snap install spotify
-sudo snap install slack
+sudo snap install slack --classic
 sudo snap install postman
 sudo apt install git
 git config --global user.name "Marius Nettum"
@@ -88,7 +88,7 @@ sudo apt update
 sudo apt install yarn
 
 # vscode
-sudo snap install vscode
+sudo snap install vscode --classic
 code --install-extension felixfbecker.php-intellisense | mrmlnc.vscode-duplicate | EditorConfig.EditorConfig | whatwedo.twig | eamodio.gitlens
 
 # heroku cli
