@@ -7,6 +7,7 @@ sudo apt install handbrake
 sudo apt install virtualbox
 sudo apt install virtualbox-ext-pack
 sudo apt install flameshot
+sudo apt install gnome-sushi
 sudo apt install dconf-editor
 sudo apt install terminator
 sudo apt install pwgen
