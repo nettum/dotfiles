@@ -30,6 +30,10 @@ sudo apt install -y zsh
 sudo apt install -y fonts-powerline
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+sudo apt install -y autojump 
+echo "\n. /usr/share/autojump/autojump.sh" >> ~/.bashrc
+echo "\n. /usr/share/autojump/autojump.sh" >> ~/.zshrc
+
 # set vim as default editor
 echo "\nexport VISUAL=vim\nexport EDITOR=\"\$VISUAL\"" >> ~/.bashrc
 echo "\nexport VISUAL=vim\nexport EDITOR=\"\$VISUAL\"" >> ~/.zshrc
