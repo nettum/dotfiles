@@ -1,30 +1,33 @@
+#!/bin/bash
+
 # install basic software
-sudo apt install vim
-sudo apt install curl
-sudo apt install filezilla
-sudo apt install gimp
-sudo apt install handbrake
-sudo apt install virtualbox
-sudo apt install virtualbox-ext-pack
-sudo apt install flameshot
-sudo apt install gnome-sushi
-sudo apt install dconf-editor
-sudo apt install terminator
-sudo apt install pwgen
-sudo apt install tldr
-sudo apt install tree
-sudo apt install openvpn
-sudo apt install nmap
-sudo snap install spotify
-sudo snap install slack --classic
-sudo snap install postman
-sudo apt install git
+sudo apt install -y vim
+sudo apt install -y curl
+sudo apt install -y filezilla
+sudo apt install -y gimp
+sudo apt install -y handbrake
+sudo apt install -y virtualbox
+sudo apt install -y virtualbox-ext-pack
+sudo apt install -y flameshot
+sudo apt install -y gnome-sushi
+sudo apt install -y dconf-editor
+sudo apt install -y terminator
+sudo apt install -y pwgen
+sudo apt install -y tldr
+sudo apt install -y tree
+sudo apt install -y openvpn
+sudo apt install -y nmap
+sudo apt install -y git
 git config --global user.name "Marius Nettum"
 git config --global user.email "nettum@gmail.com"
 
+sudo snap install spotify
+sudo snap install slack --classic
+sudo snap install postman
+
 # zsh
-sudo apt install zsh
-sudo apt install fonts-powerline
+sudo apt install -y zsh
+sudo apt install -y fonts-powerline
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # set vim as default editor
@@ -36,32 +39,33 @@ git clone git@github.com:nettum/check-response.git
 sudo cp check-response/check_response.sh /usr/local/bin/check_response && chmod +x /usr/local/bin/check_response
 git clone git@github.com:nettum/git-compare-branch.git
 sudo cp git-compare-branch/git-cmp-branch.sh /usr/local/bin/git-cmp-branch && chmod +x /usr/local/bin/git-cmp-branch
+rm -rf check-response git-cmp-branch
 
 # thefuck 
 sudo apt update
-sudo apt install python3-dev python3-pip python3-setuptools
+sudo apt install -y python3-dev python3-pip python3-setuptools
 sudo pip3 install thefuck
 echo "eval \$(thefuck --alias)" >> ~/.bashrc
 echo "eval \$(thefuck --alias)" >> ~/.zshrc
 
 # setup gnome tweak tools adapta wm and icons
-sudo apt install gnome-tweak-tool
-sudo apt install chrome-gnome-shell
+sudo apt install -y gnome-tweak-tool
+sudo apt install -y chrome-gnome-shell
 sudo add-apt-repository ppa:tista/adapta
 sudo add-apt-repository ppa:snwh/ppa
 sudo apt update
-sudo apt install adapta-gtk-theme paper-icon-theme
+sudo apt install -y adapta-gtk-theme paper-icon-theme
 
 # nginx, php, mysql, redis
-sudo apt install mysql-server
+sudo apt install -y mysql-server
 mysql_secure_installation
-sudo apt install mysql-workbench
-sudo apt install nginx
+sudo apt install -y mysql-workbench
+sudo apt install -y nginx
 sudo add-apt-repository ppa:ondrej/php
 sudo apt update
-sudo apt install php-fpm php-xml php-curl php-mbstring php-zip php-mysql php-sqlite3 php-redis php-imagick php-gd
+sudo apt install -y php-fpm php-xml php-curl php-mbstring php-zip php-mysql php-sqlite3 php-redis php-imagick php-gd
 sudo service php7.2-fpm restart
-sudo apt install redis-server
+sudo apt install -y redis-server
 # if you also need php7.1 (or older supported versions), uncomment the line below:
 # sudo apt install php7.1-fpm php7.1-mcrypt php7.1-xml php7.1-curl php7.1-mbstring php7.1-zip php7.1-mysql php7.1-imagick
 
@@ -86,11 +90,15 @@ nvm install v8.12.0
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update
-sudo apt install yarn
+sudo apt install -y yarn
 
 # vscode
 sudo snap install vscode --classic
-code --install-extension felixfbecker.php-intellisense | mrmlnc.vscode-duplicate | EditorConfig.EditorConfig | whatwedo.twig | eamodio.gitlens
+code --install-extension felixfbecker.php-intellisense 
+code --install-extension mrmlnc.vscode-duplicate
+code --install-extension EditorConfig.EditorConfig
+code --install-extension whatwedo.twig
+code --install-extension eamodio.gitlens
 
 # heroku cli
 sudo snap install --classic heroku
