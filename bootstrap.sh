@@ -17,6 +17,7 @@ sudo apt install -y tldr
 sudo apt install -y tree
 sudo apt install -y openvpn
 sudo apt install -y nmap
+sudo apt install -y whois
 sudo apt install -y git
 git config --global user.name "Marius Nettum"
 git config --global user.email "nettum@gmail.com"
