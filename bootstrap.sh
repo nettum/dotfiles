@@ -53,13 +53,13 @@ sudo pip3 install thefuck
 echo "eval \$(thefuck --alias)" >> ~/.bashrc
 echo "eval \$(thefuck --alias)" >> ~/.zshrc
 
-# setup gnome tweak tools adapta wm and icons
+# setup gnome tweak tools, plata theme and icons
 sudo apt install -y gnome-tweak-tool
 sudo apt install -y chrome-gnome-shell
-sudo add-apt-repository ppa:tista/adapta
+sudo add-apt-repository ppa:tista/plata-theme
 sudo add-apt-repository ppa:snwh/ppa
 sudo apt update
-sudo apt install -y adapta-gtk-theme paper-icon-theme
+sudo apt install -y plata-theme paper-icon-theme
 
 # nginx, php, mysql, redis
 sudo apt install -y mysql-server
