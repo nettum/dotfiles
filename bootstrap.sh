@@ -107,3 +107,7 @@ code --install-extension eamodio.gitlens
 
 # heroku cli
 sudo snap install --classic heroku
+
+# custom aliases
+echo "\nalias df='df -x \"squashfs\"'" >> ~/.bashrc
+echo "\nalias df='df -x \"squashfs\"'" >> ~/.zshrc
