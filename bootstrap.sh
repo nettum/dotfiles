@@ -9,6 +9,7 @@ sudo apt install -y handbrake
 sudo apt install -y virtualbox
 sudo apt install -y virtualbox-ext-pack
 sudo apt install -y flameshot
+sudo apt install -y kazam
 sudo apt install -y gnome-sushi
 sudo apt install -y dconf-editor
 sudo apt install -y terminator
@@ -108,3 +109,7 @@ code --install-extension eamodio.gitlens
 
 # heroku cli
 sudo snap install --classic heroku
+
+# custom aliases
+echo "\nalias df='df -x \"squashfs\"'" >> ~/.bashrc
+echo "\nalias df='df -x \"squashfs\"'" >> ~/.zshrc
