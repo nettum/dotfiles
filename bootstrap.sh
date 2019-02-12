@@ -26,6 +26,7 @@ git config --global user.email "nettum@gmail.com"
 
 sudo snap install spotify
 sudo snap install slack --classic
+sudo snap install discord
 sudo snap install postman
 
 # zsh
