@@ -13,6 +13,7 @@ sudo apt install -y kazam
 sudo apt install -y gnome-sushi
 sudo apt install -y dconf-editor
 sudo apt install -y terminator
+sudo apt install -y tmux
 sudo apt install -y pwgen
 sudo apt install -y tldr
 sudo apt install -y tree
