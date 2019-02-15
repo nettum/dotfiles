@@ -50,7 +50,6 @@ sudo cp git-compare-branch/git-cmp-branch.sh /usr/local/bin/git-cmp-branch && ch
 rm -rf check-response git-cmp-branch
 
 # thefuck 
-sudo apt update
 sudo apt install -y python3-dev python3-pip python3-setuptools
 sudo pip3 install thefuck
 echo "eval \$(thefuck --alias)" >> ~/.bashrc
@@ -63,6 +62,12 @@ sudo add-apt-repository ppa:tista/plata-theme
 sudo add-apt-repository ppa:snwh/ppa
 sudo apt update
 sudo apt install -y plata-theme paper-icon-theme
+
+# charles
+wget -q -O - https://www.charlesproxy.com/packages/apt/PublicKey | sudo apt-key add -
+sudo sh -c 'echo deb https://www.charlesproxy.com/packages/apt/ charles-proxy main > /etc/apt/sources.list.d/charles.list'
+sudo apt update
+sudo apt install -y charles-proxy
 
 # nginx, php, mysql, redis
 sudo apt install -y mysql-server
