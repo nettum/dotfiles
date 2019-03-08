@@ -3,6 +3,7 @@
 # install basic software
 sudo apt install -y vim
 sudo apt install -y curl
+sudo apt install -y lynx
 sudo apt install -y filezilla
 sudo apt install -y gimp
 sudo apt install -y handbrake
