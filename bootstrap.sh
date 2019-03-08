@@ -26,9 +26,12 @@ git config --global user.name "Marius Nettum"
 git config --global user.email "nettum@gmail.com"
 
 sudo snap install spotify
-sudo snap install slack --classic
-sudo snap install discord
 sudo snap install postman
+
+wget -O browserX-x86_64.AppImage https://dl.getstation.com/download/linux_64\?filetype\=AppImage
+chmod +x browserX-x86_64.AppImage
+./browserX-x86_64.AppImage
+rm -rf browserX-x86_64.AppImage
 
 # zsh
 sudo apt install -y zsh
