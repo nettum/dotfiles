@@ -114,8 +114,9 @@ code --install-extension EditorConfig.EditorConfig
 code --install-extension whatwedo.twig
 code --install-extension eamodio.gitlens
 
-# heroku cli
+# heroku, aws
 sudo snap install --classic heroku
+sudo apt install -y awscli
 
 # custom aliases
 echo "\nalias df='df -x \"squashfs\"'" >> ~/.bashrc
