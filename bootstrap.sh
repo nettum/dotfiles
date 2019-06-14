@@ -34,6 +34,10 @@ chmod +x browserX-x86_64.AppImage
 ./browserX-x86_64.AppImage
 rm -rf browserX-x86_64.AppImage
 
+wget https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy
+chmod +x diff-so-fancy
+sudo cp diff-so-fancy /usr/local/bin
+
 # zsh
 sudo apt install -y zsh
 sudo apt install -y fonts-powerline
