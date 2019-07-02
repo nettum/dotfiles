@@ -24,6 +24,8 @@ sudo apt install -y openvpn
 sudo apt install -y nmap
 sudo apt install -y whois
 sudo apt install -y git
+sudo apt install -y steam
+
 git config --global user.name "Marius Nettum"
 git config --global user.email "nettum@gmail.com"
 
