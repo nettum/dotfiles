@@ -8,7 +8,6 @@ sudo apt install -y lynx
 sudo apt install -y filezilla
 sudo apt install -y gimp
 sudo apt install -y handbrake
-sudo apt install -y youtube-dl
 sudo apt install -y virtualbox
 sudo apt install -y virtualbox-ext-pack
 sudo apt install -y flameshot
@@ -40,6 +39,9 @@ rm -rf browserX-x86_64.AppImage
 wget https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy
 chmod +x diff-so-fancy
 sudo cp diff-so-fancy /usr/local/bin
+
+sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
 
 # zsh
 sudo apt install -y zsh
