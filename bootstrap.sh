@@ -101,7 +101,6 @@ wget -O phpunit https://phar.phpunit.de/phpunit-7.phar
 chmod +x phpunit
 sudo mv phpunit /usr/local/bin/
 
-
 # composer
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php -r "if (hash_file('sha384', 'composer-setup.php') === '93b54496392c062774670ac18b134c3b3a95e5a5e5c8f1a9f115f203b75bf9a129d5daa8ba6a13e2cc8a1da0806388a8') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
@@ -130,6 +129,11 @@ code --install-extension eamodio.gitlens
 # heroku, aws
 sudo snap install --classic heroku
 sudo apt install -y awscli
+
+# gcloud
+echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+sudo apt update && sudo apt install -y google-cloud-sdk
 
 # custom aliases
 echo "\nalias df='df -x \"squashfs\"'" >> ~/.bashrc
