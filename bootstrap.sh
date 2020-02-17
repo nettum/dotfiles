@@ -125,6 +125,7 @@ code --install-extension mrmlnc.vscode-duplicate
 code --install-extension EditorConfig.EditorConfig
 code --install-extension whatwedo.twig
 code --install-extension eamodio.gitlens
+code --install-extension Equinusocio.vsc-material-theme
 
 # heroku, aws
 sudo snap install --classic heroku
