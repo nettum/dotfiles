@@ -30,6 +30,7 @@ git config --global user.email "nettum@gmail.com"
 
 sudo snap install spotify
 sudo snap install postman
+sudo snap install mailspring
 
 wget -O browserX-x86_64.AppImage https://dl.getstation.com/download/linux_64\?filetype\=AppImage
 chmod +x browserX-x86_64.AppImage
