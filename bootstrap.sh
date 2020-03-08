@@ -7,6 +7,7 @@ sudo apt install -y jq
 sudo apt install -y lynx
 sudo apt install -y filezilla
 sudo apt install -y gimp
+sudo apt install -y ffmpeg
 sudo apt install -y handbrake
 sudo apt install -y virtualbox
 sudo apt install -y virtualbox-ext-pack
