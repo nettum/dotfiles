@@ -80,6 +80,9 @@ sudo add-apt-repository ppa:snwh/ppa
 sudo apt update
 sudo apt install -y plata-theme paper-icon-theme
 
+sudo apt-add-repository ppa:yktooo/ppa
+sudo apt-get update
+sudo apt-get install indicator-sound-switcher
 # charles
 wget -q -O - https://www.charlesproxy.com/packages/apt/PublicKey | sudo apt-key add -
 sudo sh -c 'echo deb https://www.charlesproxy.com/packages/apt/ charles-proxy main > /etc/apt/sources.list.d/charles.list'
