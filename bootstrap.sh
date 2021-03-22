@@ -26,6 +26,7 @@ sudo apt install -y nmap
 sudo apt install -y whois
 sudo apt install -y git
 sudo apt install -y steam
+sudo apt install -y ncdu
 
 git config --global user.name "Marius Nettum"
 git config --global user.email "nettum@gmail.com"
