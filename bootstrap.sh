@@ -35,11 +35,6 @@ sudo snap install spotify
 sudo snap install postman
 sudo snap install mailspring
 
-wget -O browserX-x86_64.AppImage https://dl.getstation.com/download/linux_64\?filetype\=AppImage
-chmod +x browserX-x86_64.AppImage
-./browserX-x86_64.AppImage
-rm -rf browserX-x86_64.AppImage
-
 wget https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy
 chmod +x diff-so-fancy
 sudo cp diff-so-fancy /usr/local/bin
